@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 
+/// Type of the Images
 enum ImgType { assetImage, networkImage }
 
 class EasySplash extends StatefulWidget {
@@ -55,6 +56,8 @@ class _EasySplashState extends State<EasySplash> {
               child: Align(
                 alignment: Alignment.center,
                 child: (widget.imgType == ImgType.assetImage)
+
+                    /// Checking type of the Image and show the appropriate widget
                     ? Image(image: AssetImage(widget.image))
                     : Image(image: NetworkImage(widget.image)),
               ),

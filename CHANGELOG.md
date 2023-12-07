@@ -12,3 +12,6 @@
 
 ## 0.0.5
 * Platform support added
+
+## 0.0.6
+* Bug fix
