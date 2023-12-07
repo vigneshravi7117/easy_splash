@@ -1,4 +1,4 @@
-[![Download](https://img.shields.io/badge/Download-v0.0.2-FF0000) ](https://pub.dartlang.org/packages/easy_splash)
+[![Download](https://img.shields.io/badge/Download-v0.0.3-FF0000) ](https://pub.dartlang.org/packages/easy_splash)
 [ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/vigneshravi7117/easy_splash/pulls)
 
 # EasySplash
