@@ -6,3 +6,6 @@
 
 ## 0.0.3
 * Splash screen functionality added
+
+## 0.0.4
+* Padding UI issue fixed

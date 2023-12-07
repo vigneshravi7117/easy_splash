@@ -45,17 +45,19 @@ class _EasySplashState extends State<EasySplash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: SizedBox(
         height: double.infinity,
         width: double.infinity,
-        padding: widget.padding,
         child: Stack(
           children: [
-            Align(
-              alignment: Alignment.center,
-              child: (widget.imgType == ImgType.assetImage)
-                  ? Image(image: AssetImage(widget.image))
-                  : Image(image: NetworkImage(widget.image)),
+            Container(
+              padding: widget.padding,
+              child: Align(
+                alignment: Alignment.center,
+                child: (widget.imgType == ImgType.assetImage)
+                    ? Image(image: AssetImage(widget.image))
+                    : Image(image: NetworkImage(widget.image)),
+              ),
             ),
             if (widget.hasIndicator) ...[
               Align(
