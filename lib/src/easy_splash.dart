@@ -1,9 +1,12 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 enum ImgType { assetImage, networkImage }
 
 class EasySplash extends StatefulWidget {
   final int seconds;
+  final Widget nextScreen;
   final ImgType imgType;
   final String image;
   final EdgeInsetsGeometry padding;
@@ -15,6 +18,7 @@ class EasySplash extends StatefulWidget {
   const EasySplash(
       {Key? key,
       required this.seconds,
+      required this.nextScreen,
       required this.imgType,
       required this.image,
       this.padding = const EdgeInsets.all(20),
@@ -29,6 +33,15 @@ class EasySplash extends StatefulWidget {
 }
 
 class _EasySplashState extends State<EasySplash> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(
+        Duration(seconds: widget.seconds),
+        () => Navigator.pushReplacement(context,
+            MaterialPageRoute(builder: (context) => widget.nextScreen)));
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
