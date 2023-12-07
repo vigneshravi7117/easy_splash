@@ -3,20 +3,6 @@ description: "EasySplash is a lightweight Flutter package designed to streamline
 version: 0.0.5
 homepage: https://github.com/vigneshravi7117/easy_splash.git
 
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.easy.splash
-        pluginClass: EasySplash
-      ios:
-        pluginClass: EasySplash
-      macos:
-        pluginClass: EasySplash
-      web:
-        pluginClass: EasySplash
-        fileName: easy_splash.dart
-
 environment:
   sdk: '>=3.2.3 <4.0.0'
   flutter: ">=1.17.0"
