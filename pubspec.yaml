@@ -1,6 +1,6 @@
 name: easy_splash
 description: "EasySplash is a lightweight Flutter package designed to streamline the implementation of splash screens in your Flutter applications."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/vigneshravi7117/easy_splash.git
 
 environment:
