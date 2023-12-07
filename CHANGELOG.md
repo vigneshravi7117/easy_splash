@@ -9,3 +9,6 @@
 
 ## 0.0.4
 * Padding UI issue fixed
+
+## 0.0.5
+* Platform support added
