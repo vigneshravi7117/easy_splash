@@ -1,3 +1,6 @@
+[![Download](https://img.shields.io/badge/Download-v0.0.2-FF0000) ](https://pub.dartlang.org/packages/easy_splash)
+[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/VigneshRavi23/easy_splash/pulls)
+
 # EasySplash
 
 EasySplash is a Flutter package designed to simplify the creation of splash screens in Flutter applications. With EasySplash, developers can effortlessly integrate captivating splash screens, enhancing the initial user experience without the complexities of manual implementation.
@@ -12,8 +15,8 @@ EasySplash is a Flutter package designed to simplify the creation of splash scre
 
 ## Installation
 
-Add `easysplash` to your `pubspec.yaml` file:
+Run this command:
 
-```yaml
-dependencies:
-  easysplash: ^x.x.x  # Replace with the latest version
+```bash
+flutter pub add easy_splash
+```
